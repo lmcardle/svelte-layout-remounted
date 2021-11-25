@@ -2,8 +2,8 @@
 	import { goto } from '$app/navigation';
 
 	function buttonClick() {
-		goto('/foo');
+		goto('/');
 	}
 </script>
 
-<button on:click={buttonClick}>Click to goto Foo</button>
+<button on:click={buttonClick}>Click to goto Home</button>
